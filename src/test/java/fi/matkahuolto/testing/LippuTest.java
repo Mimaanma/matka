@@ -7,15 +7,6 @@ import fi.matkahuolto.lippupalvelu.Lippu;
 
 public class LippuTest {
 	
-	@Test
-    public void testlippuNull() { 
-        Lippu lippu = new Lippu(); 
-        assertNotNull(lippu.getLähtöPaikka());    
-        assertNotNull(lippu.getMenoPaikka());   
-        assertNotNull(lippu.getLähtöAika());       
-        assertNotNull(lippu.getSaapumisAika()); 
-        assertNotNull(lippu.getHinta());
-        
-    } 
+
 
 }

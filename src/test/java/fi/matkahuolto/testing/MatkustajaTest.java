@@ -6,10 +6,6 @@ import fi.matkahuolto.tietopalvelu.Matkustaja;
 
 public class MatkustajaTest {
 	
-    @Test 
-    public void test() { 
-        Matkustaja matkustaja = new Matkustaja(); 
-        assertNotNull(matkustaja.getTila()); 
-    } 
+
 
 }
